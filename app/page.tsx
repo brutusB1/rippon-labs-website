@@ -82,12 +82,12 @@ export default function RipponLabs() {
         <div className="mx-auto max-w-7xl px-4 py-20 md:py-28">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-semibold tracking-tight leading-[1.05]">
-              Build what customers feel.
+              Transform vision into velocity.
               <br />
-              <span className="text-white/80">Measure what leaders trust.</span>
+              <span className="text-white/80">Scale with startup precision.</span>
             </h1>
             <p className="mt-5 text-lg md:text-xl text-white/70 max-w-2xl">
-              Web, AI, and product systems — shipped with startup speed. We turn ambiguity into shipped outcomes: prototypes, rollouts, and revenue.
+              Strategic technology consulting for businesses ready to accelerate. We bridge the gap between ambitious goals and market execution—delivering measurable growth at startup speed.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <a href="#contact" className="inline-flex items-center justify-center rounded-2xl px-5 py-3 bg-cyan-400 text-slate-950 font-semibold shadow-[0_0_0_1px_rgba(0,0,0,0.08)] hover:brightness-95 transition">
@@ -98,7 +98,7 @@ export default function RipponLabs() {
               </a>
             </div>
             <p className="mt-6 text-sm text-white/50">
-              Ex‑startup PM + sales operator. Senior‑living SaaS, CRM, mobile, analytics.
+              Startup execution meets enterprise expertise. Technology leadership + strategic sales operations.
             </p>
           </div>
         </div>
@@ -108,28 +108,28 @@ export default function RipponLabs() {
       <section id="services" className="bg-slate-900/50 border-y border-white/5">
         <div className="mx-auto max-w-7xl px-4 py-16">
           <h2 className="text-2xl md:text-3xl font-semibold">Services</h2>
-          <p className="mt-2 text-white/70 max-w-2xl">We're operators who ship. Strategy turns into commits, and commits into outcomes.</p>
+          <p className="mt-2 text-white/70 max-w-2xl">Strategic consulting that bridges vision and execution. We deliver transformation with startup speed and enterprise wisdom.</p>
           <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             {[
               {
-                title: "Web & Product",
-                sub: "Launch fast, iterate faster.",
-                bullets: ["Marketing sites", "MVPs", "Dashboards", "Mobile UX"],
+                title: "Digital Transformation",
+                sub: "Modernize operations, accelerate growth.",
+                bullets: ["Technology Strategy", "Digital Products", "Process Optimization", "Platform Architecture"],
               },
               {
-                title: "AI Consulting",
-                sub: "Make AI a teammate, not a toy.",
-                bullets: ["Agents", "Automations", "RAG", "Evaluation"],
+                title: "Growth Acceleration",
+                sub: "Scale revenue, optimize conversion.",
+                bullets: ["Go-to-Market Strategy", "Sales Operations", "Customer Journey", "Performance Analytics"],
               },
               {
-                title: "Growth Ops",
-                sub: "Close the loop.",
-                bullets: ["CRM logging", "Reporting", "Activation", "RCS pilots"],
+                title: "AI & Automation",
+                sub: "Intelligent systems, measurable ROI.",
+                bullets: ["Strategic Implementation", "Workflow Automation", "Data Intelligence", "Risk Assessment"],
               },
               {
-                title: "Advisory",
-                sub: "Experienced hands on your roadmap.",
-                bullets: ["Fractional PM", "GTM Experiments", "Analytics"],
+                title: "Executive Advisory",
+                sub: "Trusted counsel, proven results.",
+                bullets: ["Technology Leadership", "Strategic Planning", "Team Development", "Market Entry"],
               },
             ].map((card) => (
               <div key={card.title} className="rounded-2xl border border-white/10 bg-white/5 p-5">
@@ -174,24 +174,24 @@ export default function RipponLabs() {
       {/* Work */}
       <section id="work" className="bg-slate-900/50 border-y border-white/5">
         <div className="mx-auto max-w-7xl px-4 py-16">
-          <h2 className="text-2xl md:text-3xl font-semibold">Selected Work</h2>
-          <p className="mt-2 text-white/70 max-w-2xl">Outcomes we can discuss publicly. More on request.</p>
+          <h2 className="text-2xl md:text-3xl font-semibold">Impact & Results</h2>
+          <p className="mt-2 text-white/70 max-w-2xl">Cross-industry outcomes that demonstrate our strategic approach. More case studies available upon request.</p>
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             {[
               {
-                title: "Senior‑Living SaaS",
-                metric: "+10% of monthly shares via automation",
-                copy: "Added tour CTAs and tracking to player pages.",
+                title: "Revenue Operations",
+                metric: "40% faster sales cycle + 25% higher conversion",
+                copy: "Unified CRM processes and automated lead nurturing across enterprise sales teams.",
               },
               {
-                title: "Mobile Video",
-                metric: "Android SDK upgrade; teleprompter adoption ↑",
-                copy: "Improved clip uploads and scriptwriter completion.",
+                title: "Digital Platform Launch",
+                metric: "6-month faster time-to-market",
+                copy: "Streamlined product development with agile methodology and rapid iteration cycles.",
               },
               {
-                title: "CRM Ops",
-                metric: "Unified activity across Salesforce/HubSpot",
-                copy: "Zero‑dev Chrome logging pilot to reduce manual steps.",
+                title: "Process Automation",
+                metric: "60% reduction in manual workflows",
+                copy: "Implemented intelligent automation saving 15+ hours per week across operations.",
               },
             ].map((item) => (
               <article key={item.title} className="rounded-2xl border border-white/10 bg-white/5 p-5">
@@ -237,13 +237,13 @@ export default function RipponLabs() {
             <article className="rounded-2xl border border-white/10 bg-white/5 p-5">
               <h3 className="text-lg font-semibold">Matt Rippon</h3>
               <p className="mt-2 text-sm text-white/80">
-                Principal Product Manager. Shipped automation, analytics, and CRM integrations across web and mobile. Activation mindset from first touch to tour request.
+                Technology strategist with startup leadership experience. Specializes in bridging the gap between ambitious vision and market reality through scalable product systems and growth-focused execution.
               </p>
             </article>
             <article className="rounded-2xl border border-white/10 bg-white/5 p-5">
               <h3 className="text-lg font-semibold">Tessa Barron</h3>
               <p className="mt-2 text-sm text-white/80">
-                CEO. Discovery, messaging, stakeholder alignment, sales training. Turns product value into revenue and long‑term partnerships.
+                Enterprise sales and operations leader with healthcare industry expertise. Transforms complex B2B processes into streamlined revenue engines and sustainable growth strategies.
               </p>
             </article>
           </div>
@@ -269,13 +269,13 @@ export default function RipponLabs() {
                   <input id="email" name="email" type="email" required className="mt-1 w-full rounded-xl bg-white/5 border border-white/10 px-3 py-2 outline-none focus:ring-2 focus:ring-cyan-400" />
                 </div>
                 <div>
-                  <label htmlFor="interest" className="block text-sm text-white/80">What do you want to build?</label>
+                  <label htmlFor="interest" className="block text-sm text-white/80">What's your primary challenge?</label>
                   <select id="interest" name="interest" className="mt-1 w-full rounded-xl bg-white/5 border border-white/10 px-3 py-2 outline-none focus:ring-2 focus:ring-cyan-400">
-                    <option>Web / Marketing Site</option>
-                    <option>Product / MVP</option>
-                    <option>AI Implementation</option>
-                    <option>Growth Ops / CRM</option>
-                    <option>Other</option>
+                    <option>Digital Transformation</option>
+                    <option>Growth & Revenue Operations</option>
+                    <option>AI & Automation Strategy</option>
+                    <option>Technology Leadership</option>
+                    <option>Other Strategic Initiative</option>
                   </select>
                 </div>
                 <div>
