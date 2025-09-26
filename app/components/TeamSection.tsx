@@ -21,7 +21,7 @@ export default function TeamSection() {
               <div className="absolute top-4 left-4 h-20 w-20 rounded-full bg-pink-400/20 blur-xl"></div>
               {/* Profile photo */}
               <img 
-                src="/images/team/Gemini_Generated_Image_on2205on2205on22.png" 
+                src="/images/team/SCR-20250926-gjn.jpeg" 
                 alt="Tessa Barron, CEO"
                 className="absolute inset-4 w-auto h-40 object-cover object-center rounded-lg opacity-90 shadow-2xl"
               />
@@ -51,7 +51,7 @@ export default function TeamSection() {
               <div className="absolute bottom-4 right-4 h-24 w-24 rounded-full bg-blue-400/20 blur-xl"></div>
               {/* Profile photo */}
               <img 
-                src="/images/team/Gemini_Generated_Image_bk49tubk49tubk49.png" 
+                src="/images/team/SCR-20250926-gje.jpeg" 
                 alt="Matt Rippon, CTO"
                 className="absolute inset-4 w-auto h-40 object-cover object-center rounded-lg opacity-90 shadow-2xl"
               />
@@ -81,7 +81,7 @@ export default function TeamSection() {
               <div className="absolute top-4 right-4 h-24 w-24 rounded-full bg-amber-400/30 blur-xl"></div>
               {/* Profile photo */}
               <img 
-                src="/images/team/Gemini_Generated_Image_vburj3vburj3vbur.png" 
+                src="/images/team/SCR-20250926-gjw.jpeg" 
                 alt="Gus Gus, Chief Waggin' Officer"
                 className="absolute inset-4 w-auto h-40 object-cover object-center rounded-lg opacity-90 shadow-2xl"
               />
