@@ -19,19 +19,12 @@ export default function TeamSection() {
               <div className="absolute inset-0 bg-black/20"></div>
               <div className="absolute -bottom-2 -right-2 h-32 w-32 rounded-full bg-white/10 blur-2xl"></div>
               <div className="absolute top-4 left-4 h-20 w-20 rounded-full bg-pink-400/20 blur-xl"></div>
-              {/* Professional silhouette for Tessa */}
-              <svg className="absolute bottom-0 left-1/2 -translate-x-1/2 h-44 w-44" viewBox="0 0 200 200">
-                <defs>
-                  <linearGradient id="tessaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" style={{stopColor:'#1e293b', stopOpacity:0.9}} />
-                    <stop offset="100%" style={{stopColor:'#334155', stopOpacity:0.9}} />
-                  </linearGradient>
-                </defs>
-                <circle cx="100" cy="80" r="35" fill="url(#tessaGrad)" />
-                <ellipse cx="100" cy="150" rx="55" ry="45" fill="url(#tessaGrad)" />
-                {/* Hair silhouette */}
-                <path d="M65 70 Q65 45 100 45 Q135 45 135 70 Q135 50 120 55 L115 50 Q100 40 85 50 L80 55 Q65 50 65 70" fill="#1e293b" opacity="0.5"/>
-              </svg>
+              {/* Profile photo */}
+              <img 
+                src="/images/team/Gemini_Generated_Image_on2205on2205on22.png" 
+                alt="Tessa Barron, CEO"
+                className="absolute inset-4 w-auto h-40 object-cover object-center rounded-lg opacity-90 shadow-2xl"
+              />
             </div>
             <div className="p-6">
               <div className="flex items-center gap-2 mb-2">
@@ -56,21 +49,12 @@ export default function TeamSection() {
               <div className="absolute inset-0 bg-black/20"></div>
               <div className="absolute -top-4 -left-4 h-32 w-32 rounded-full bg-cyan-400/20 blur-2xl"></div>
               <div className="absolute bottom-4 right-4 h-24 w-24 rounded-full bg-blue-400/20 blur-xl"></div>
-              {/* Professional silhouette for Matt */}
-              <svg className="absolute bottom-0 left-1/2 -translate-x-1/2 h-44 w-44" viewBox="0 0 200 200">
-                <defs>
-                  <linearGradient id="mattGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" style={{stopColor:'#1e293b', stopOpacity:0.9}} />
-                    <stop offset="100%" style={{stopColor:'#334155', stopOpacity:0.9}} />
-                  </linearGradient>
-                </defs>
-                <circle cx="100" cy="80" r="35" fill="url(#mattGrad)" />
-                <ellipse cx="100" cy="150" rx="55" ry="45" fill="url(#mattGrad)" />
-                {/* Sunglasses */}
-                <rect x="70" y="75" width="25" height="12" rx="6" fill="#0f172a" opacity="0.8"/>
-                <rect x="105" y="75" width="25" height="12" rx="6" fill="#0f172a" opacity="0.8"/>
-                <rect x="95" y="79" width="10" height="3" fill="#0f172a" opacity="0.6"/>
-              </svg>
+              {/* Profile photo */}
+              <img 
+                src="/images/team/Gemini_Generated_Image_bk49tubk49tubk49.png" 
+                alt="Matt Rippon, CTO"
+                className="absolute inset-4 w-auto h-40 object-cover object-center rounded-lg opacity-90 shadow-2xl"
+              />
             </div>
             <div className="p-6">
               <div className="flex items-center gap-2 mb-2">
@@ -95,43 +79,12 @@ export default function TeamSection() {
               <div className="absolute inset-0 bg-black/20"></div>
               <div className="absolute -bottom-4 -left-4 h-32 w-32 rounded-full bg-orange-400/30 blur-2xl"></div>
               <div className="absolute top-4 right-4 h-24 w-24 rounded-full bg-amber-400/30 blur-xl"></div>
-              {/* Boxer dog silhouette */}
-              <svg className="absolute bottom-0 left-1/2 -translate-x-1/2 h-44 w-44" viewBox="0 0 200 200">
-                <defs>
-                  <linearGradient id="gusGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" style={{stopColor:'#92400e', stopOpacity:0.95}} />
-                    <stop offset="50%" style={{stopColor:'#a16207', stopOpacity:0.95}} />
-                    <stop offset="100%" style={{stopColor:'#78350f', stopOpacity:0.95}} />
-                  </linearGradient>
-                  <linearGradient id="gusLight" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" style={{stopColor:'#d97706', stopOpacity:0.8}} />
-                    <stop offset="100%" style={{stopColor:'#ea580c', stopOpacity:0.8}} />
-                  </linearGradient>
-                </defs>
-                {/* Body */}
-                <ellipse cx="100" cy="150" rx="50" ry="40" fill="url(#gusGrad)" />
-                {/* Chest patch */}
-                <ellipse cx="100" cy="140" rx="20" ry="25" fill="#fef3c7" opacity="0.4" />
-                {/* Head */}
-                <ellipse cx="100" cy="90" rx="40" ry="38" fill="url(#gusGrad)" />
-                {/* Snout */}
-                <ellipse cx="100" cy="105" rx="22" ry="18" fill="url(#gusLight)" />
-                {/* Black snout area */}
-                <ellipse cx="100" cy="110" rx="15" ry="12" fill="#1f2937" opacity="0.7" />
-                {/* Ears */}
-                <ellipse cx="70" cy="75" rx="12" ry="20" fill="#451a03" transform="rotate(-20 70 75)" />
-                <ellipse cx="130" cy="75" rx="12" ry="20" fill="#451a03" transform="rotate(20 130 75)" />
-                {/* Eyes */}
-                <circle cx="85" cy="85" r="4" fill="#1f2937" />
-                <circle cx="115" cy="85" r="4" fill="#1f2937" />
-                <circle cx="86" cy="84" r="1.5" fill="#fff" opacity="0.8" />
-                <circle cx="116" cy="84" r="1.5" fill="#fff" opacity="0.8" />
-                {/* Nose */}
-                <ellipse cx="100" cy="112" rx="5" ry="3" fill="#000" />
-                {/* Collar */}
-                <rect x="60" y="125" width="80" height="8" rx="4" fill="#1e40af" opacity="0.8" />
-                <circle cx="100" cy="133" r="4" fill="#fbbf24" />
-              </svg>
+              {/* Profile photo */}
+              <img 
+                src="/images/team/Gemini_Generated_Image_vburj3vburj3vbur.png" 
+                alt="Gus Gus, Chief Waggin' Officer"
+                className="absolute inset-4 w-auto h-40 object-cover object-center rounded-lg opacity-90 shadow-2xl"
+              />
             </div>
             <div className="p-6">
               <div className="flex items-center gap-2 mb-2">
